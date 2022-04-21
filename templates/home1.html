@@ -1,0 +1,41 @@
+<html>
+<body>
+
+        <!--creating the form
+        where the input is the data input to get from the web page
+         type of the data input,name to be displayed, placeholder --hint to be displayed
+        required is making the data input mandatory-->
+        <h1>Diabetic check Form </h1>]
+        <legend><h3>Required Details</h3></legend>
+         
+        <form method="post" action="/data"> <!--  when ever the submit button is clicked it will call the /data url-->
+                
+            <label>Preg</label>
+            <input type="number" name="preg" placeholder="preg" required="required">
+            <br>
+            <label>plas</label>
+            <input type="number" name="plas" placeholder="plas" required="required">
+            <br>
+            <label>pres</label>
+            <input type="number" name="pres" placeholder="pres" required="required">
+            <br>
+            <label>skin</label>
+            <input type="number" name="skin"  placeholder="skin" required="required">
+            <br>
+            <label>test</label>
+            <input type="number" name="test"  placeholder="test" required="required">
+            <br>
+            <label>mass</label>
+            <input type="number" name="mass"  placeholder="mass" required="required">
+            <br>
+            <label>pedi</label>
+            
+            <input type="number" name="pedi"  placeholder="pedi" required="required">
+            <br>
+            <label>age</label>
+            <input type="number" name="age"  placeholder="age" required="required">
+            <br>
+            <button>Submit</button>   <!--creating the button named submit-->
+        </form>
+</body>
+</html>
